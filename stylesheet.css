@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f5debb;
+    line-height: 1.5;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.title {
+    text-align: center;
+}
+
+.navbar {
+    background-color: rgb(208, 219, 255);
+    border: 2px;
+    border-radius: 5px;
+}
+
+.navbar .container {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: xx-large;
+    color: #fff;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    margin: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+
+a:hover {
+    color: whitesmoke;
+}
+
+.form {
+    background-color: rgb(255, 255, 157);
+    border: 2px;
+    border-radius: 5px;
+    align-items: center;
+    text-align: center;
+}
+
+.button {
+    align-items: center;
+}
+
+.gallery2, .gallery3, .gallery4 {
+    display:block;
+    display:flex;
+}
+
+.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+    display: block;
+  }
+
+.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+.desc {
+    padding: 15px;
+    text-align: center;
+    background-color: pink;
+  }
+
+.footer {
+    text-align: center;
+    background-color: rgb(255, 148, 129);
+    border: 2px;
+    color:black;
+}
